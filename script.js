@@ -3,17 +3,17 @@
 // ==================================================
 const produtos = [
     // JAQUETAS (5)
-    { id: "j1", categoria: "jaquetas", titulo: "Jaqueta Jeans Masculina Azul", preco: 112.00, descricao: "Jaqueta Jeans Masculina  Azul Clara Destroyer, Rasgada No Estilo.", imagens: [
+    { id: "j1", categoria: "jaquetas", titulo: "Jaqueta Jeans Masculina Azul", preco: 106.40, descricao: "Jaqueta Jeans Masculina  Azul Clara Destroyer, Rasgada No Estilo.", imagens: [
     "imagens/jaquetas/jaqueta-jeans-over-1.png",
     "imagens/jaquetas/jaqueta-jeans-over-2.png",
     "imagens/jaquetas/jaqueta-jeans-over-3.png",
     "imagens/jaquetas/jaqueta-jeans-over-4.png",
-    "imagens/jaquetas/jaqueta-jeans-over-5.png"], link: "https://s.shopee.com.br/gMgReYIYw" },
+    "imagens/jaquetas/jaqueta-jeans-over-5.png"], link: "https://s.shopee.com.br/3qJiEDyrEO" },
     { id: "j2", categoria: "jaquetas", titulo: "Jaqueta Jeans Masculina, com Elastano, Jeans Premium", preco: 159.00, descricao: "Jaqueta Jeans Masculina , com Elastano, Jeans Premium.",  imagens: ["imagens/jaquetas/jaqueta-bomber-1.png",
     "imagens/jaquetas/jaqueta-bomber-2.png",
     "imagens/jaquetas/jaqueta-bomber-3.png",
     "imagens/jaquetas/jaqueta-bomber-4.png",
-     "imagens/jaquetas/jaqueta-bomber-5.png", ], link: "https://s.shopee.com.br/30kbE48z6l" },
+     "imagens/jaquetas/jaqueta-bomber-5.png", ], link: "https://s.shopee.com.br/16zfMdjkm" },
     { id: "j3", categoria: "jaquetas", titulo: "Jaqueta Couro", preco: 449.90, descricao: "Jaqueta de couro ecológico, acabamento premium, estilo rocker. Zíper diagonal e gola de camurça.", imagens: ["https://via.placeholder.com/600x600?text=Couro+1","https://via.placeholder.com/600x600?text=Couro+2","https://via.placeholder.com/600x600?text=Couro+3","https://via.placeholder.com/600x600?text=Couro+4","https://via.placeholder.com/600x600?text=Couro+5","https://via.placeholder.com/600x600?text=Couro+6"], link: "https://shopee.com.br/jaqueta3" },
     { id: "j4", categoria: "jaquetas", titulo: "Jaqueta Puffer", preco: 389.90, descricao: "Jaqueta puffer acolchoada com enchimento térmico, impermeável, capuz destacável.", imagens: ["https://via.placeholder.com/600x600?text=Puffer+1","https://via.placeholder.com/600x600?text=Puffer+2","https://via.placeholder.com/600x600?text=Puffer+3","https://via.placeholder.com/600x600?text=Puffer+4","https://via.placeholder.com/600x600?text=Puffer+5","https://via.placeholder.com/600x600?text=Puffer+6"], link: "https://shopee.com.br/jaqueta4" },
     { id: "j5", categoria: "jaquetas", titulo: "Jaqueta Skatista", preco: 299.90, descricao: "Jaqueta estilo skatista com patches, tecido resistente e corte largo. Bolsos frontais.", imagens: ["https://via.placeholder.com/600x600?text=Skatista+1","https://via.placeholder.com/600x600?text=Skatista+2","https://via.placeholder.com/600x600?text=Skatista+3","https://via.placeholder.com/600x600?text=Skatista+4","https://via.placeholder.com/600x600?text=Skatista+5","https://via.placeholder.com/600x600?text=Skatista+6"], link: "https://shopee.com.br/jaqueta5" },
