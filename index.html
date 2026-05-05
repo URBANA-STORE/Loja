@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>URBANA STORY | Jaquetas, Moletom & Camisetas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>⛓️ URBANA<span>STORY</span></h1>
+            <p style="font-size: 0.8rem; color: #aaa;">streetwear com atitude</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jaquetas">JAQUETAS</a></li>
+                <li><a href="#moletom">MOLETOM</a></li>
+                <li><a href="#camisetas">CAMISETAS</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h2>COLEÇÃO URBANA 2025</h2>
+        <p>Jaquetas, moletom e camisetas com corte exclusivo</p>
+        <button class="btn-hero" onclick="scrollToProducts()">EXPLORAR CATEGORIAS →</button>
+    </div>
+</section>
+
+<!-- JAQUETAS (5) -->
+<section class="products-section" id="jaquetas">
+    <div class="container">
+        <h2 class="section-title">🔥 JAQUETAS</h2>
+        <div class="products-grid" id="jaquetas-grid"></div>
+    </div>
+</section>
+
+<!-- MOLETOM (5) -->
+<section class="products-section" id="moletom">
+    <div class="container">
+        <h2 class="section-title">💨 MOLETOM</h2>
+        <div class="products-grid" id="moletom-grid"></div>
+    </div>
+</section>
+
+<!-- CAMISETAS (5) -->
+<section class="products-section" id="camisetas">
+    <div class="container">
+        <h2 class="section-title">👕 CAMISETAS</h2>
+        <div class="products-grid" id="camisetas-grid"></div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2025 URBANA STORY | Todos os direitos reservados</p>
+        <p>🔒 Ambiente seguro • Pagamento via PIX/Cartão • Entregamos para todo Brasil</p>
+    </div>
+</footer>
+
+<!-- MODAL COM CARROSSEL LATERAL -->
+<div id="productModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="modal-grid">
+            <div class="modal-gallery">
+                <div class="carousel-container">
+                    <button class="carousel-btn prev-btn">❮</button>
+                    <div class="carousel-main">
+                        <img id="modalMainImg" src="" alt="Produto">
+                    </div>
+                    <button class="carousel-btn next-btn">❯</button>
+                </div>
+                <div class="carousel-dots" id="carouselDots"></div>
+            </div>
+            <div class="modal-info">
+                <h2 id="modalTitle"></h2>
+                <p class="modal-price" id="modalPrice"></p>
+                <div class="modal-description" id="modalDescription"></div>
+                <button id="modalBuyBtn" class="modal-buy-btn">COMPRAR NA SHOPEE →</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
